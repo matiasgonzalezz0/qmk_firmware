@@ -287,9 +287,9 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
         }
     } else if (index == 1) {
         if (clockwise) {
-            tap_code(KC_MPRV);
+            tap_code(KC_PGUP);
         } else {
-            tap_code(KC_MNXT);
+            tap_code(KC_PGDN);
         }
     }
     return false;
